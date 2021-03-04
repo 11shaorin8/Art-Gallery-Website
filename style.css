@@ -1,0 +1,231 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*------------Navigation-----------*/
+#nav-bar
+{
+  position: sticky;
+  top:0;
+  z-index:10;
+}
+.navbar-brand img
+{
+  height: 40px;
+  padding-left: 30px;
+} 
+.navbar-nav li
+{
+	padding: 0 10px;
+	
+} 
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+	
+}
+#nav-bar ul li a:hover 
+{
+	color: #007bff!important;
+	
+
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+
+ color: #500!important;
+ font-weight:600; 
+ font-size: 16px;
+}
+
+#slider
+{
+  width :100%;
+}
+
+.carousel-caption
+{
+
+  top: 50%;
+  transform: translately(-50%);
+  bottom: initial!important;
+  
+}
+.carousel-caption h5
+{
+  color: #fff;
+  font-size: 40px;
+} 
+
+/*-----------About---------*/
+#About
+{
+ padding-top:50px;
+ color: #555;
+ font-size: 20px;
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+ 
+}
+#About .btn
+{
+ margin-top: 20px;
+} 
+#About-Content
+{
+	padding-top: 10px;
+	
+}
+/*-----------------World Famous Art---------------------*/
+#World
+{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/download.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #efefef!important;
+   background-attachment: fixed;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+  
+  
+}
+#World h1
+{
+	text-align: center;
+	color: #efefef!important;
+	padding-bottom: 10px;
+	font-size: 30px;
+	
+	
+}
+#World h1::after
+{
+	content:'';
+	background: #efefef;
+	display:block;
+	height: 2px;
+	width:70px;
+	margin:10px auto 2px;
+	
+}
+.World
+{
+	margin-top: 10px;
+}
+/*--------------team members-----------*/
+#Team
+{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+	margin-top:10px;
+	padding-top:10px;
+	
+}
+#Team h1{
+	text-align:center;
+	padding-bottom:10px;
+	color:#007bff!important;
+	font-size:30px;
+}
+h1::after{
+	content:'';
+	background:#007bff;
+	display:block;
+	height:2px;
+	width:70px;
+	margin:10px auto 2px;
+}
+.profile-pic
+{
+	margin-top:25px:
+	
+}
+.profile-pic .img-box
+{
+	opacity:1;
+	display:block;
+	position:relative;
+}
+.profile-pic .img-box img{
+	filter:grayscale(1);
+	padding-top:10px;
+}
+.profile-pic .img-box img:hover{
+	filter:grayscale(0);
+	cursor:pointer;
+}
+.profile-pic h2
+{
+	font-size:20px;
+	font-weight:bold;
+	margin-top:15px;
+	color:#007bff!important;
+}
+#Contact
+{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+	margin-top:5px;
+	padding-top:10px;
+	
+}
+#Contact h1{
+	text-align:center;
+	padding-bottom:10px;
+	color:#efefef!important;
+	font-size:30px;
+}
+h1::after{
+	content:'';
+	background:#007bff;
+	display:block;
+	height:2px;
+	width:70px;
+	margin:10px auto 2px;
+}
+/*-------------Get in Touch-------------*/
+#Contact
+{
+	background:#555;
+	padding-top:40px;
+	padding-bottom:40px;
+	color:#007bff;
+}
+.contact-form
+{
+	padding:15px;
+}
+.form-control
+{
+	border-radius:0!important;
+	border:none!important;
+}
+::placeholder
+{
+	color:#999!important;
+}
+.follow
+{
+	background:#fff;
+	padding:10px;
+	margin:15px;
+}
+.contact-info .fa{
+	margin:10px;
+	color:#007bff;
+	font-weight:blod;
+}
